@@ -12,5 +12,6 @@ data:
     <body>
         <h1>Hello, ArgoCD!</h1>
         <p>Welcome to your first ArgoCD project.</p>
+        <p>Nice! You have succcessfully complete argocd practical</p>
     </body>
     </html>
