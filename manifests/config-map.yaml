@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-world-configmap
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Hello ArgoCD</title>
+    </head>
+    <body>
+        <h1>Hello, ArgoCD!</h1>
+        <p>Welcome to your first ArgoCD project.</p>
+    </body>
+    </html>
