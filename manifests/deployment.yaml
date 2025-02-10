@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: argo-deploy
+  name: adi-deploy
   labels:
     app: hello-world
 spec:
-  replicas: 2
+  replicas: 4
   selector:
     matchLabels:
       app: hello-world
